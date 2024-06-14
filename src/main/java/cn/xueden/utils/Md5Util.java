@@ -2,12 +2,7 @@ package cn.xueden.utils;
 
 import java.security.MessageDigest;
 
-/**功能描述：MD5加密工具类
- * @author:梁志杰
- * @date:2022/12/2
- * @description:cn.xueden.utils
- * @version:1.0
- */
+/**功能描述：MD5加密工具类*/
 public class Md5Util {
     public final static String MD5(String s) {
 

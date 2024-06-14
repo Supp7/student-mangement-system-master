@@ -1,11 +1,6 @@
 package cn.xueden.utils;
 
-/**工具类
- * @author:梁志杰
- * @date:2022/12/25
- * @description:cn.xueden.utils
- * @version:1.0
- */
+/**工具类*/
 public class XuedenUtil {
 
     /**

@@ -13,12 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-/**
- * @author:梁志杰
- * @date:2022/12/1
- * @description:cn.xueden.utils
- * @version:1.0
- */
+
 public class HutoolJWTUtil {
 
     /**

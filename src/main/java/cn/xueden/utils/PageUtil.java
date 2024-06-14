@@ -7,12 +7,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-/**功能描述：分页工具
- * @author:梁志杰
- * @date:2022/9/30
- * @description:cn.xueden.utils
- * @version:1.0
- */
+/**功能描述：分页工具*/
 public class PageUtil extends cn.hutool.core.util.PageUtil{
 
     /**

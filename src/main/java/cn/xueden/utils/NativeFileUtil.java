@@ -6,12 +6,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
 
-/**功能描述：上传本地文件
- * @author:梁志杰
- * @date:2022/12/23
- * @description:cn.xueden.utils
- * @version:1.0
- */
+/**功能描述：上传本地文件*/
 public class NativeFileUtil {
 
     /**
