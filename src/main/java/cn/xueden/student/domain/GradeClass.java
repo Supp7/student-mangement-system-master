@@ -11,12 +11,7 @@ import java.util.List;
 import java.util.Set;
 
 
-/**功能描述：班级信息实体类
- * @author:梁志杰
- * @date:2022/12/9
- * @description:cn.xueden.student.domain
- * @version:1.0
- */
+/**功能描述：班级信息实体类*/
 @Data
 @Entity
 @Table(name = "s_grade_class")

@@ -3,12 +3,7 @@ package cn.xueden.student.service.dto;
 import cn.xueden.annotation.EnableXuedenQuery;
 import lombok.Data;
 
-/**功能描述：成绩查询功能
- * @author:梁志杰
- * @date:2022/12/18
- * @description:cn.xueden.student.service.dto
- * @version:1.0
- */
+/**功能描述：成绩查询功能*/
 @Data
 public class ScoresQueryCriteria {
 

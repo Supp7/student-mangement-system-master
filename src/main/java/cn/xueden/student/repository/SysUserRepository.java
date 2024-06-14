@@ -4,10 +4,7 @@ import cn.xueden.student.domain.SysUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
-/**
- * 系统用户信息持久层
- * @author Administrator
- */
+/**系统用户信息持久层*/
 public interface SysUserRepository extends JpaRepository<SysUser, Long>, JpaSpecificationExecutor<SysUser> {
     /**
      * 根据登录名查找用户信息

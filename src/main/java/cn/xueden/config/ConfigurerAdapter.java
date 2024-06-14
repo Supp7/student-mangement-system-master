@@ -2,27 +2,13 @@ package cn.xueden.config;
 
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.web.servlet.FilterRegistrationBean;
-import org.springframework.boot.web.servlet.RegistrationBean;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-import org.springframework.web.filter.CorsFilter;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import java.io.IOException;
-import java.util.Arrays;
-
-/**功能描述：配置跨域
- * @author:梁志杰
- * @date:2022/12/1
- * @description:cn.xueden.config
- * @version:1.0
- */
+/**功能描述：配置跨域*/
 @Configuration
 public class ConfigurerAdapter implements WebMvcConfigurer {
     @Value("${user.icon}")

@@ -1,23 +1,15 @@
 package cn.xueden.student.service;
 
-import cn.xueden.student.domain.GradeClass;
 import cn.xueden.student.domain.Scores;
 import cn.xueden.student.service.dto.ScoresQueryCriteria;
 
 import cn.xueden.student.vo.EchartsSeriesModel;
 import cn.xueden.student.vo.RegisterScoresModel;
 import org.springframework.data.domain.Pageable;
-
-import java.util.DoubleSummaryStatistics;
 import java.util.HashMap;
 import java.util.List;
 
-/**功能描述：成绩管理业务接口
- * @author:梁志杰
- * @date:2022/12/18
- * @description:cn.xueden.student.service
- * @version:1.0
- */
+/**功能描述：成绩管理业务接口*/
 public interface IScoresService {
 
     /**

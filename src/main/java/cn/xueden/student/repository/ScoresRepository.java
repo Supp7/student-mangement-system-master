@@ -6,10 +6,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import java.util.List;
 
-/**
- * 功能描述：成绩管理持久层
- * @author Administrator
- */
+/**功能描述：成绩管理持久层*/
 public interface ScoresRepository extends JpaRepository<Scores, Long>, JpaSpecificationExecutor<Scores> {
     /**
      * 功能描述：根据课程ID和学生ID查询成绩信息

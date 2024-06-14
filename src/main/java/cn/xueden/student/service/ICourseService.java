@@ -6,12 +6,7 @@ import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
-/**功能描述：课程信息业务接口
- * @author:梁志杰
- * @date:2022/12/14
- * @description:cn.xueden.student.service
- * @version:1.0
- */
+/**功能描述：课程信息业务接口*/
 public interface ICourseService {
     /**
      * 获取课程列表数据

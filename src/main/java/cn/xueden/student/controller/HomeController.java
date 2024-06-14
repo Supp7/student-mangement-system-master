@@ -9,12 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author:梁志杰
- * @date:2022/12/22
- * @description:cn.xueden.student.controller
- * @version:1.0
- */
 @RestController
 @RequestMapping("home")
 public class HomeController {

@@ -5,12 +5,6 @@ import org.hibernate.exception.ConstraintViolationException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-/**
- * @author:梁志杰
- * @date:2022/9/30
- * @description:cn.xueden.student.exception
- * @version:1.0
- */
 public class ThrowableUtil {
 
     /**

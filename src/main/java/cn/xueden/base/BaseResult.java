@@ -4,12 +4,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-/**功能描述：返回结果集
- * @author:梁志杰
- * @date:2022/9/30
- * @description:cn.xueden.student.base
- * @version:1.0
- */
+/**功能描述：返回结果集 */
 @Data
 public class BaseResult implements Serializable {
 

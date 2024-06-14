@@ -5,12 +5,7 @@ import cn.xueden.student.service.dto.UserQueryCriteria;
 import cn.xueden.student.vo.ModifyPwdModel;
 import org.springframework.data.domain.Pageable;
 
-/**功能描述：系统用户业务接口
- * @author:梁志杰
- * @date:2022/12/2
- * @description:cn.xueden.student.service
- * @version:1.0
- */
+/**功能描述：系统用户业务接口*/
 public interface ISysUserService {
 
     /**

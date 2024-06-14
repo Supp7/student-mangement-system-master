@@ -8,12 +8,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-/**
- * @author:梁志杰
- * @date:2022/12/1
- * @description:cn.xueden.annotation
- * @version:1.0
- */
+
 @ValueGenerationType(
         generatedBy = CreationUpdateByGeneration.class
 )

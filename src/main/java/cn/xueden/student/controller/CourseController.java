@@ -17,12 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**功能描述：课程信息前端控制器
- * @author:梁志杰
- * @date:2022/12/14
- * @description:cn.xueden.student.controller
- * @version:1.0
- */
+/**功能描述：课程信息前端控制器*/
 @RestController
 @RequestMapping("course")
 public class CourseController {

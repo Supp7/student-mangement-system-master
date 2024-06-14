@@ -19,12 +19,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**功能描述：成绩管理前端控制器
- * @author:梁志杰
- * @date:2022/12/18
- * @description:cn.xueden.student.controller
- * @version:1.0
- */
+/**功能描述：成绩管理前端控制器*/
 @RestController
 @RequestMapping("scores")
 public class ScoresController {

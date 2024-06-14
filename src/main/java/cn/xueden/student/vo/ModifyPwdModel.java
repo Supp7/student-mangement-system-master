@@ -2,12 +2,7 @@ package cn.xueden.student.vo;
 
 import lombok.Data;
 
-/**
- * @author:梁志杰
- * @date:2022/12/26
- * @description:cn.xueden.student.vo
- * @version:1.0
- */
+
 @Data
 public class ModifyPwdModel {
 

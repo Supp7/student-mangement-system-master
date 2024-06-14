@@ -1,6 +1,5 @@
 package cn.xueden.base;
 
-import cn.xueden.annotation.EnableXuedenCreateBy;
 import cn.xueden.annotation.EnableXuedenUpdateBy;
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;
@@ -9,7 +8,6 @@ import lombok.Setter;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import org.springframework.data.annotation.CreatedBy;
 
 
 import java.io.Serializable;
@@ -17,10 +15,6 @@ import java.lang.reflect.Field;
 import java.sql.Timestamp;
 
 /**功能描述：公共Entity
- * @author:梁志杰
- * @date:2022/9/30
- * @description:cn.xueden.base
- * @version:1.0
  */
 @Getter
 @Setter
@@ -38,7 +32,6 @@ public class BaseEntity implements Serializable {
      * 创建者ID
      */
     @Column(name = "create_by")
-    @EnableXuedenCreateBy
     private Long createBy;
 
     /**
@@ -61,9 +54,6 @@ public class BaseEntity implements Serializable {
     @Column(name = "remarks")
     private String remarks;
 
-
-
-    public @interface Update {}
 
     @Override
     public String toString() {

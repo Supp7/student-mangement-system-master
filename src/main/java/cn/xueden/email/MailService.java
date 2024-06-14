@@ -5,12 +5,6 @@ import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Component;
 
-/**
- * @author:梁志杰
- * @date:2022/12/24
- * @description:cn.xueden.email
- * @version:1.0
- */
 @Component
 public class MailService {
 
