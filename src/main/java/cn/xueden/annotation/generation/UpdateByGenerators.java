@@ -10,12 +10,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-/**
- * @author:梁志杰
- * @date:2022/12/1
- * @description:cn.xueden.annotation.generation
- * @version:1.0
- */
 final class UpdateByGenerators {
     private static final Map<Class<?>, ValueGenerator<?>> generators = new HashMap();
 
@@ -23,7 +17,7 @@ final class UpdateByGenerators {
     }
 
     public static ValueGenerator<?> get(Class<?> type) {
-        ValueGenerator<?> valueGeneratorSupplier = (ValueGenerator)generators.get(type);
+        ValueGenerator<?> valueGeneratorSupplier = generators.get(type);
         if (Objects.isNull(valueGeneratorSupplier)) {
             return null;
         } else {

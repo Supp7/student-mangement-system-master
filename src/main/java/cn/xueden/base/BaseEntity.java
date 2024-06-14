@@ -1,6 +1,5 @@
 package cn.xueden.base;
 
-import cn.xueden.annotation.EnableXuedenCreateBy;
 import cn.xueden.annotation.EnableXuedenUpdateBy;
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;
@@ -38,7 +37,6 @@ public class BaseEntity implements Serializable {
      * 创建者ID
      */
     @Column(name = "create_by")
-    @EnableXuedenCreateBy
     private Long createBy;
 
     /**

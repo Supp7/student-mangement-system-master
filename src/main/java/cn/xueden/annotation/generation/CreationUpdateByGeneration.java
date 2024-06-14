@@ -5,12 +5,6 @@ import org.hibernate.tuple.AnnotationValueGeneration;
 import org.hibernate.tuple.GenerationTiming;
 import org.hibernate.tuple.ValueGenerator;
 
-/**
- * @author:梁志杰
- * @date:2022/12/1
- * @description:cn.xueden.annotation.generation
- * @version:1.0
- */
 public class CreationUpdateByGeneration implements AnnotationValueGeneration<EnableXuedenUpdateBy> {
     private ValueGenerator<?> generator;
 
