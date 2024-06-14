@@ -1,12 +1,5 @@
 # 基于SpringBoot3+Vue3整合开发学生信息管理系统
 
-> 后端项目gitHub源码地址：https://github.com/seasonl2014/student-mangement-system
->
-> 前端项目gitHub源码地址：https://github.com/seasonl2014/student-mangement-system-web
->
-> 知识星球地址：https://t.zsxq.com/09BZEGLJB
->
-> 欢迎给个star鼓励一下~
 
 ## 系统功能结构
 
@@ -50,32 +43,6 @@
 6、课程表（s_course）
 
 7、学生成绩表（s_student_score）
-
-## 知识星球
-
-本项目配套详细的项目开发手册，有兴趣的话，可以加入我的星球查看，
-
-[知识星球地址](https://t.zsxq.com/09BZEGLJB)
-
-[知识星球优惠券](https://t.zsxq.com/09VFQmjwF)
-
-星球提供如下服务：
-
- 1.带你做实战项目，手把手教学，从0到1开发学生信息管理系统。 
-
-2.提供详细的项目开发手册。 
-
-3.提供各章节对应的源码。 
-
-4.关于项目或者学习过程中不懂的问题可以随时提问，星主将1对1解答你的问题。 
-
-![知识星球]( https://i.imgtg.com/2022/12/30/EHWaG.png )
-
-
-
-## 配套视频教程
-
-[b站配套视频](https://www.bilibili.com/video/BV1M3411D7n6/)
 
 
 
