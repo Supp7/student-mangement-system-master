@@ -13,7 +13,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-//功能描述：教师信息前端控制器
+//功能描述：教师信息前端控制器123
 @RestController
 @RequestMapping("teacher")
 public class TeacherController {
