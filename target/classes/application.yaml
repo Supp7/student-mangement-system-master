@@ -3,8 +3,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 709802
-    url: jdbc:mysql://localhost:3306/123?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    password: 123456
+    url: jdbc:mysql://192.168.126.91:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
     hikari:
       minimum-idle: 10 #????????
       maximum-pool-size: 10  #????????????10
@@ -26,8 +26,8 @@ spring:
   mail:
     host: smtp.qq.com
     port: 465
-    username: 379533177@qq.com
-    password: ryjxbuztvacacahj  # 配置用户的密码（即上面我们申请到的授权码）
+    username: 1161089517@qq.com
+    password: gnikeqyzayxaijfc # 配置用户的密码（即上面我们申请到的授权码）
     properties:
       mail:
         debug: true # 开启 debug，这样方便开发者查看邮件发送日志
@@ -36,4 +36,4 @@ spring:
             class: javax.net.ssl.SSLSocketFactory
 # 用户头像存放路径
 user:
-  icon: E:\\student-mangement-system\\
+  icon: C:\Users\Supp\Desktop\spring3+vue3\student-mangement-system-master\icon
